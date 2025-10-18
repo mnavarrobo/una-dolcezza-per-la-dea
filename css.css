@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(250, 153, 201);
+  font-size: larger;
+}
+
+.header {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+#main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p {
+  flex: 1 0 20%;
+  padding: 20px;
+  text-shadow: 1px .5px;
+}
